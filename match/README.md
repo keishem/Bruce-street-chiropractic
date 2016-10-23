@@ -40,7 +40,7 @@ A new approach to iOS code signing: Share one code signing identity across your 
 
 `match` is the implementation of the https://codesigning.guide concept. `match` creates all required certificates & provisioning profiles and stores them in a separate git repository. Every team member with access to the repo can use those credentials for code signing. `match` also automatically repairs broken and expired credentials. It's the easiest way to share signing credentials across teams
 
-[More information on how to get started with codesigning](/fastlane/docs/Codesigning)
+[More information on how to get started with codesigning](https://docs.fastlane.tools/codesigning/getting-started/)
 
 -------
 <p align="center">
@@ -300,7 +300,7 @@ This is useful when installing your application on your device using the Develop
 
 You can statically select the right provisioning profile in your Xcode project (the name will be `match Development tools.fastlane.app`).
 
-[Docs on how to set up your Xcode project](/fastlane/docs/Codesigning/XcodeProject.md)
+[Docs on how to set up your Xcode project](https://docs.fastlane.tools/codesigning/xcode-project/)
 
 ### Continuous Integration
 
